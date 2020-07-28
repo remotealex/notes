@@ -33,6 +33,13 @@ We simply nest files this way using an alphabetic system (`1aa-salt.md`, `1ab-bi
 │   ├── 1aa-salt.md
 │   └── 1ab-bitter.md
 ├── 2-functional-prog
+│   ├── 2a-fp-fundamentals.md
+│   ├── 2aa-side-effects.md
+│   ├── 2ab-seperation.md
+│   ├── 2ac-composition.md
+│   ├── 2aca-first-class-functions.md
+│   ├── 2ad-immutability.md
+│   └── 2ada-thread-safety.md
 ├── 3-terminal-cmds
 │   └── 3a-add-line-to-file.md
 └── README.md
