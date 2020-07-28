@@ -2,6 +2,21 @@
 
 Based on the Zettelkasten method by Luhmann inspired by [How to take smart notes](https://fortelabs.co/blog/how-to-take-smart-notes/?utm_source=hackernewsletter&utm_medium=email&utm_term=fav). Plain-text format inspired by The Pragmatic Programmer.
 
+## Aims
+
+The main aim of this repo is to be a safe place for me to collect and store notes for future use. One of the main take aways from _how to take smart notes_ is that writing isn't the result of thinking, it is **where it happens**.
+
+Each piece of information has been written in my own words, another core principle of good note taking along with linking between _cards_ and thoughful categorisation.
+
+## Flow
+
+1. Write notes on paper while reading/learning/thinking (no highlighting or copying)
+2. Go through the notes, thinking about links to previous notes and in what way this new information will fit into my current system.
+3. Write down the keywords and links from this new information to your existing information.
+4. Add the new information to my _box_.
+5. Add clickable links to relevent _cards_.
+6. Commit changes to repo.
+
 ## File system
 
 There are top-level directories which present are _categories_. They're coded by a simple numeric ID (`1-cooking/`).
@@ -9,3 +24,16 @@ There are top-level directories which present are _categories_. They're coded by
 Files under that directory use their filenames as a reference system (`1a-five-flavours.md`). The `1` represents the category and the `a` shows that it's a related or sub-topic.
 
 We simply nest files this way using an alphabetic system (`1aa-salt.md`, `1ab-bitter.md` and so on).
+
+## Tree
+
+```
+├── 1-cooking
+│   ├── 1a-five-flavours.md
+│   ├── 1aa-salt.md
+│   └── 1ab-bitter.md
+├── 2-functional-prog
+├── 3-terminal-cmds
+│   └── 3a-add-line-to-file.md
+└── README.md
+```
