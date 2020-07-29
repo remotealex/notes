@@ -39,7 +39,12 @@ We simply nest files this way using an alphabetic system (`1aa-salt.md`, `1ab-bi
 │   ├── 2ac-composition.md
 │   ├── 2aca-first-class-functions.md
 │   ├── 2ad-immutability.md
-│   └── 2ada-thread-safety.md
+│   ├── 2ada-thread-safety.md
+│   ├── 2ae-memoization.md
+│   ├── 2af-higher-order-functions.md
+│   ├── 2ag-currying.md
+│   ├── 2ah-partial-application.md
+│   └── 2aha-arity.md
 ├── 3-terminal-cmds
 │   └── 3a-add-line-to-file.md
 └── README.md
