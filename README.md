@@ -19,7 +19,9 @@ Each piece of information has been written in my own words, another core princip
 
 ## File system
 
-There are top-level directories which present are _categories_. They're coded by a simple numeric ID (`1-cooking/`).
+There are top-level directories which present are _contexts_. They're coded by a simple numeric ID (`1-cooking/`).
+
+A _context_ is **not** a _category_. This is important. Contexts are collections of notes, grouped by _where I might use them_, not a mearly taxonomic topic. These might sometimes be equivelent in practice, but the difference is important to know.
 
 Files under that directory use their filenames as a reference system (`1a-five-flavours.md`). The `1` represents the category and the `a` shows that it's a related or sub-topic.
 
