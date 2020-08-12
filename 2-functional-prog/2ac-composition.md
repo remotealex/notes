@@ -4,4 +4,4 @@ Composition is like a simple chain, you squash some functions together in a row 
 
 In functional programming it's useful to write simple functions which can be chained (_composed_) together in different ways.
 
-Not only are small functions easier to debug and reason, they're often reuseable and easy to refactor as they only handle one are of logic (if written correctly!).
+Not only are small functions easier to debug and reason, they're often reuseable and easy to refactor as they only handle one area of logic (if written correctly!).
